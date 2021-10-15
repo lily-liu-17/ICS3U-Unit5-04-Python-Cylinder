@@ -29,12 +29,12 @@ def main():
         # call functions
         volume = calculate_volume(radius_user, height_user)
         print(
-            "\nThe volume of a cylinder with a radius {0} mm and a height of {1} mm {2} mm³.".format(
+            "\nThe volume of a cylinder with a radius {0} mm and a height of {1} mm is {2} mm³.".format(
                 radius_user, height_user, volume
             )
         )
     except (Exception):
-        print("Invalid input")
+        print("\nInvalid input")
 
     print("\nDone.")
 
